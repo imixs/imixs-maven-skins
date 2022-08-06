@@ -1,0 +1,464 @@
+creatix- /* Change 21.12.2012  - ffcc00-> #FCB802  (236,182,28) 
+
+	contraer color: #02a4e0
+*/
+	/* End Reset */ /**********************************************
+ * Basis Einstellungen 
+ **********************************************/         
+html,body,div,p,h1,h2,h3,ul,ol,span,a,table,td,form,img,li {
+	color: #444;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	margin-top: 1.3em;
+	color: #FCB802;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
+	color: #333;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0.2em;
+	margin-top: 1.3em;
+	color: #f2c40c;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	margin-top: 0.3em;
+	color: #f2c40c;
+}
+
+h5 {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0.1em;
+	margin-top: 0.3em;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+
+#navcolumn h5 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0.2em;
+	margin-top: 1.3em;
+	color: #f2c40c;
+	text-decoration: none;
+	font-style: normal;
+}
+
+dd {
+	margin: 0em 0em 1em 0em;
+	padding: 0em;
+}
+
+a {
+	color: #508AB5;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#container {
+	padding: 1em;
+}
+
+#header {
+	margin: 5px 0 0 0;
+	background: transparent;
+	display: block;
+}
+
+#footer1,#footer2 {
+	text-align: right;
+	margin-right: 2em;
+}
+
+/**********************************************
+ * IMIXS Styles 
+ **********************************************/
+#imixs-servicenav {
+	clear: both;
+	padding: 1px 0 1px 0;
+	text-align: right;
+	font-size: 11px;
+	background: #FCB802;
+	border: 0px;
+	margin: 0px 0 1px 0;
+	border-bottom: 0px solid #FFF;
+	border-top: 0px solid #FFFFFF;
+	color: #FFF;
+}
+
+#imixs-servicenav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#imixs-servicenav li {
+	list-style: none;
+	display: inline;
+	margin: 0em 0em 0em 2em;
+	padding: 0px;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+#imixs-servicenav a {
+	font-size: 11px;
+	color: #524100;
+}
+
+/* #80887b */
+#imixs-header {
+	float: left;
+	width: 100%;
+	margin: 0em;
+	padding: 0em;
+	border: 0px dashed silver;
+	background-color: #FCB802;
+}
+
+#imixs-header p {
+	padding: 0;
+	margin: 0;
+}
+
+#imixs-logo {
+	float: left;
+	background-image: url("logo.png");
+	background-repeat: no-repeat;
+	background-position: 15px 5px;
+	height: 80px;
+	width: 164px;
+}
+
+#imixs-branding {
+	line-height: normal;
+}
+
+.imixs-brandingtext1 {
+	border: 0 none;
+	color: #FFFFFF;
+	font-size: 34px;
+	font-weight: bolder;
+	padding: 0 0 0 5px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.imixs-brandingtext1 a,.imixs-brandingtext1 a:HOVER {
+	color: #FFFFFF;
+	background: transparent;
+}
+
+.imixs-brandingtext2 {
+	border: 0 none;
+	color: #80887b;
+	font-size: 30px;
+	font-weight: bolder;
+	line-height: 36px;
+	padding: 0 0 0 5px;
+	text-align: left;
+	white-space: nowrap;
+}
+
+.imixs-brandingtext3 {
+	border: 0 none;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: normal;
+	padding: 0 0 0 7px;
+	text-align: right;
+	white-space: nowrap;
+}
+
+#imixs-nav {
+	clear: both;
+	margin: 0em 0em 0em;
+	border-top: 1px solid #FFFFFF;
+	background-color: #FFF;
+}
+
+#imixs-nav ul {
+	list-style-type: none;
+	margin: 0px 0 10px 0;
+	padding: 2px 0 3px;
+	background: #EEE;
+}
+
+#imixs-nav li {
+	list-style: none;
+	display: inline;
+	margin: 0;
+	color: #2D302C;
+	font-weight: bold;
+	font-size: 12px;
+	xline-height: 21px;
+	padding: 2px 25px 2px 10px;
+}
+
+#imixs-nav li:HOVER {
+	background: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#imixs-nav li a {
+	color: #2D302C;
+}
+
+#imixs-nav li a:HOVER {
+	
+}
+
+.imixs-menubar {
+	background-color: #FCB802;
+	background-image: none;
+	border: 0px;
+}
+
+#imixs-sidebar {
+	border-color: silver;
+	border-style: dashed dashed dashed solid;
+	border-width: 0px 0px 0px 0px;
+	float: right;
+	font-size: 11px;
+	margin: 10px 0px 0px;
+	padding: 1em;
+	width: 300px;
+}
+
+#navcolumn ul {
+	margin-left: 0px;
+}
+
+#navcolumn li {
+	margin: 2px 0px 2px 4px;
+	padding: 0 0 0 9px;
+	list-style-type: none;
+	background-repeat: no-repeat;
+	background-position: 0 0.4em;
+	list-style-position: outside;
+	line-height: 1.2em;
+}
+
+#navcolumn li.collapsed {
+	background-image: url(../images/collapsed.gif);
+}
+
+#navcolumn li.expanded {
+	background-image: url(../images/expanded.gif);
+	font-size: 13px;
+}
+
+#imixs-content {
+	margin: 20px 330px 0px 10px;
+	padding: 0em;
+	border: 0px dashed silver;
+}
+
+.imixs-topcontent h1 {
+	font-size: 23px;
+	line-height: 26px;
+	margin: 2px 0 0 0;
+	color: #80887B;
+}
+
+.imixs-topcontent img {
+	float: left;
+	margin: 5px 5px 0 0;
+	width: 70px;
+}
+
+.imixs-subheader {
+	margin-top: 10px;
+}
+
+.imixs-subheader h1 {
+	color: #FFF;
+	margin: 0;
+}
+
+.imixs-subheader p {
+	color: #FFF;
+}
+
+.imixs-sidecontent {
+	padding-bottom: 0;
+}
+
+.imixs-sidecontent h1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	color: #80887B;
+	line-height: normal;
+}
+
+.imixs-sidecontent img {
+	float: left;
+	margin: 0px 5px 0 0;
+	width: 50px;
+}
+
+.imixs-subheader {
+	background-repeat: no-repeat;
+}
+
+/* Responsive */
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	.imixs-brandingtext1 a {
+		font-size: 30px;
+	}
+	.imixs-brandingtext2 {
+		font-size: 30px;
+	}
+	.imixs-brandingtext3 {
+		font-size: 8px;
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.imixs-brandingtext1 a {
+		font-size: 30px;
+	}
+	.imixs-brandingtext2 {
+		font-size: 30px;
+	}
+	.imixs-brandingtext3 {
+		font-size: 8px;
+		display: none;
+	}
+}
+
+#imixs-nav {
+	margin: 0px 0 10px 0;
+	padding: 1px 0;
+	background: #EEE;
+}
+
+#imixs-nav .xleft a.externalLink {
+	font-size: 12px;
+	font-weight: bold;
+	color: #2D302C;
+	background: none;
+	padding: 4px 20px 5px 10px;
+}
+
+#imixs-nav .xleft .selected {
+	font-weight: bold;
+	color: #2D302C;
+	background-color: #FFF;
+	font-size: 12px;
+	padding: 5px 10px 5px 5px;
+}
+
+/* Maven Skin Classes */
+.section ul {
+	list-style-type: disc;
+}
+
+.section dl {
+	padding: 4px 4px 4px 6px;
+	border: 1px solid #aaa;
+	background-color: #ffc;
+}
+
+.section dt {
+	font-weight: bold;
+	color: #900;
+	padding-bottom: 0.3em;
+}
+
+.none {
+	font-size: 13px;
+}
+
+.selected {
+	font-weight: bold;
+}
+
+.source {
+	background-color: #F6F6F6;
+	color: #666666;
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 11px;
+	border: 1px dotted #FFCC00;
+	line-height: 16px;
+	margin: 8px 0px;
+	max-height: 312px;
+	overflow: auto;
+	padding: 2px;
+	margin: 8px 0px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 2px;
+	border-color: gray;
+	width: 100%;
+}
+
+table.bodyTable tr.a {
+	background-color: #ddd;
+}
+
+table.bodyTable th,table.bodyTable td {
+	font-size: 12px;
+}
+
+table.bodyTable th {
+	color: white;
+	background-color: #bbb;
+	text-align: left;
+	font-weight: bold;
+}
+
+table.bodyTable th,table.bodyTable td {
+	padding: 2px 4px 2px 4px;
+	vertical-align: top;
+}
+
+table.bodyTable tr.b {
+	background-color: #eee;
+}
+
+table.bodyTable tr.a {
+	background-color: #ddd;
+}
+
+
+/* Enhancement creatix-css */
+
+.offset-3 {
+	left: 25%;
+}
+
+.left-3 {
+	right: 75%;
+}
+
+@media screen and (max-width: 768px) {
+	.offset-3,.left-3 {
+		left: 0;
+	}
+}

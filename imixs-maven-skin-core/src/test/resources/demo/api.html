@@ -1,0 +1,295 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Imixs Open Source Workflow - How dos it work?</title>
+<style type="text/css" media="all">
+@import url("./css/creatix-basic.css");
+
+@import url("./css/creatix-layout.css");
+
+@import url("./css/imixs.css");
+</style>
+<link rel="stylesheet" href="./css/print.css" type="text/css"
+	media="print" />
+<meta name="author"
+	content="Ralph Soika - Imixs Software Solutions GmbH" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description"
+	content="Imixs Workflow is a java based workflow engine and bpm framework" />
+<meta name="keywords"
+	content="Workflow, workflow engine, BPM, BPMN, open source, java, process management, eclipse, Glassfish" />
+
+
+</head>
+<body>
+
+	<div id="container">
+		<div id="header">
+			<div class="row">
+
+				<div id="imixs-servicenav">
+					<ul>
+						<li><a href="http://www.imixs.org">home</a></li>
+						<li><a href="http://blog.imixs.org" target="_blank">blog</a></li>
+
+						<li><a href="https://github.com/imixs/imixs-workflow"
+							target="_blank">github</a></li>
+
+						<li><a href="https://github.com/imixs/imixs-workflow/issues"
+							target="_blank">issues</a></li>
+						<li><a href="http://www.imixs.com" target="_blank">imixs.com</a></li>
+						<li></li>
+
+					</ul>
+				</div>
+
+				<div id="imixs-header">
+					<div id="imixs-logo"></div>
+					<div id="imixs-branding">
+						<span class="imixs-brandingtext1">Imixs Workflow</span> <span
+							class="imixs-brandingtext3">...the open source workflow
+							technology for business applications</span>
+						<p>
+							<span class="imixs-brandingtext2">Project Home</span>
+						</p>
+					</div>
+				</div>
+
+
+
+
+
+
+
+				<div id="imixs-nav">
+					<div class="xleft" >
+						<a href="http://www.imixs.org/" class="externalLink">Home</a>
+						&nbsp; <span class="selected"><img src="./images/arrow.gif"
+							style="padding-right: 5px;">Quick Start</span> &nbsp; <a
+							href="http://www.imixs.org/jee/" class="externalLink">Workflow
+							Engine</a> &nbsp; <a href="http://www.imixs.org/xml/"
+							class="externalLink">XML & WebServices</a> &nbsp; <a
+							href="http://www.imixs.org/jsf/" class="externalLink">Web
+							Tools</a> &nbsp; <a href="http://www.imixs.org/modeler/"
+							class="externalLink">Modelling</a> &nbsp; <a
+							href="http://www.imixs.org/script/" class="externalLink">Script!</a>
+
+
+
+					</div>
+
+					<div style="float: right">Last Published: 2013-03-22</div>
+					
+				</div>
+
+
+
+			</div>
+		</div>
+		<!-- END header -->
+
+
+
+
+		<!-- content -->
+		<div class="row">
+			<div class="col-3" id="navcolumn">
+
+
+
+
+
+				<h5>Introduction</h5>
+				<ul>
+
+					<li class="none">
+						<div class="selected">How does it work?</div>
+					</li>
+
+					<li class="none"><a href="quickstart_workitem.html">Business
+							Data</a></li>
+
+					<li class="none"><a href="quickstart_businessprocess.html">Business
+							Process</a></li>
+
+					<li class="none"><a href="quickstart_workflowengine.html">Workflow
+							Engine</a></li>
+				</ul>
+				<h5>The Workflow API</h5>
+				<ul>
+
+					<li class="none"><a href="api-overview.html">Overview</a></li>
+
+					<li class="none"><a href="workflowmanager.html">WorkflowManager</a>
+					</li>
+
+					<li class="none"><a href="model.html">Model</a></li>
+
+					<li class="none"><a href="plugin-api.html">Plugin API</a></li>
+
+					<li class="none"><a href="workflowkernel.html">Workflowkernel</a>
+					</li>
+				</ul>
+				<h5>About the project</h5>
+				<ul>
+
+					<li class="none"><a href="goals.html">Goals</a></li>
+
+					<li class="none"><a href="forum.html">Forum</a></li>
+
+					<li class="none"><a href="maven_howto.html">Download &
+							Maven</a></li>
+
+					<li class="none"><a href="license.html">Project License</a></li>
+
+					<li class="none"><a href="team-list.html">Project Team</a></li>
+
+					<li class="none"><a href="issue-tracking.html">Issue
+							Tracking</a></li>
+
+					<li class="none"><a href="mail-lists.html">Mailing Lists</a></li>
+				</ul>
+				<a href="http://maven.apache.org/" title="Built by Maven"
+					class="poweredBy"> <img alt="Built by Maven"
+					src="./images/logos/maven-feather.png"></img>
+				</a>
+
+
+			</div>
+
+			<div class="col-9">
+
+
+
+
+				<div class="section">
+					<h2>
+						How does it work?<a name="How_does_it_work"></a>
+					</h2>
+					<!-- ~~~~~~~~~~~~ -->
+					<p>Imixs Workflow provides a framework for the development and
+						management of business applications in a very simple and flexible
+						way. Imixs Workflow allows you to store business data and define
+						the workflow in a business process model, so you can implement
+						your applications faster and more flexible!</p>
+						
+						<h3>Sub Chapter</h3>
+					<p>The Imixs Workflow project focuses on human based workflow.
+						This means that a business process is typically controlled by the
+						user (actor). During a business process Imixs Workflow provides
+						users with all necessary information such as different task lists
+						and process documentation. The Workflow System assists users in
+						starting a new process, finding a document 
+						</p>
+						<h4>Sub Sub Chapter</h4>
+						<p>
+						and in the completion
+						of current jobs. The following illustration demonstrates the
+						typical flow of a document or
+						
+						</p>
+						<h5>Some extra sub sub text</h5>
+						<p>
+						 datasheet from one user to another
+						controlled by a Workflow Management System.</p>
+						
+						
+						
+					<div class="source"><pre>  import org.imixs.workflow.ItemCollection;
+  .....
+  ItemCollection workitem=new ItemCollection();
+  workitem.replaceItemValue("name","Anna");
+  workitem.replaceItemValue("age",new Integer(32));</pre></div>
+  
+  
+					<p>The Workflow Management System - also called WFMS or
+						Workflow System - controls the flow of a document or datasheet
+						between the different users. The workflow model defines the
+						process flow from one actor to another.</p>
+					<div class="section">
+						<h3>
+							The Actors<a name="The_Actors"></a>
+						</h3>
+						<!-- ~~~~~~~~~~~~~~~~~~ -->
+						<p>A Workflow Management System controls which users can start
+							a new business process or process a running task. Each business
+							process defines different users to be involved during a workflow.
+							These users are called Actors. The Actor interacts with the
+							Workflow Management System during a business process. Actors can
+							either start, update or read a process instance. The Workflow
+							Mangement System grants actors to access a specific process
+							instance. This means that a user which is not in involved during
+							a workflow will not be allowed to access a running process
+							instance. A Workflow Management System provides a security layer
+							to process confidential business data.</p>
+							
+							<ul><li>init()</li><li>run()</li><li>close()</li></ul>
+							
+							<dl><dt>Note:</dt><dd>When you work with a WorkflowManager implementation like the <a href="/jee/">Imixs JEE Workflow</a> it is not necessary to registerPlugins as this will be done by the WorkflowManager.</dd></dl>
+					</div>
+					<div class="section">
+						<h3>
+							The Workitem<a name="The_Workitem"></a>
+						</h3>
+						<!-- ~~~~~~~~~~~~~~~~~~ -->
+						<p>In a Workflow Management System the document or data which
+							is edited by different actors is called a Workitem. One workitem
+							can assume different states during a business process. If a
+							workitem is still processed by actors and not yet finished the
+							workitem is called a running process instance. The status of a
+							process instance is defined by the workflow model.</p>
+					</div>
+					<div class="section">
+						<h3>
+							The Workflow Model<a name="The_Workflow_Model"></a>
+						</h3>
+						<!-- ~~~~~~~~~~~~~~~~~~ -->
+						<p>The Workflow Model defines which status a process instance
+							can present. If an actor completes a task from his tasklist the
+							process instance is processed by the Workflow Management System
+							and can be assigned to a new status. This change form one status
+							to another is defined by a Workflow Activity.</p>
+					</div>
+					<div class="section">
+						<h3>
+							Tasklist and Statuslist<a name="Tasklist_and_Statuslist"></a>
+						</h3>
+						<!-- ~~~~~~~~~~~~~~~~~~ -->
+						<p>A Workflow Management System provides actors with different
+							views about running process instances. A tasklist contains all
+							open tasks from the view of an individual actor. The statuslist
+							provides the user with the latest status information about
+							running process instances. For example a tasklist can contain new
+							customers orders from an online shop. The statuslist can be used
+							by a customer to see the current processing status of his own
+							orders.</p>
+							
+							
+							<table border="1" class="bodyTable"><tbody><tr class="a"><th align="left">Core Properties</th><th align="left">Type</th><th align="left">read/&nbsp;<br>write</th><th align="left">Description</th></tr><tr class="b"><td align="left">$ModelVersion</td><td align="left">String</td><td align="center">yes</td><td align="left">The Version of the model the workitem belongs to</td></tr><tr class="a"><td align="left">$ProcessID</td><td align="left">Integer</td><td align="center">yes</td><td align="left">The current ProcessID of the workItem</td></tr><tr class="b"><td align="left">$ActivityID</td><td align="left">Integer</td><td align="center">yes</td><td align="left">The next activity to be processed by the workflow engine</td></tr><tr class="a"><td align="left">$Created</td><td align="left">Date</td><td align="center">no</td><td align="left">Date of creation</td></tr><tr class="b"><td align="left">$Modified</td><td align="left">Date</td><td align="center">no</td><td align="left">Date of last modification</td></tr><tr class="a"><td align="left">$IsAuthor</td><td align="left">Boolean</td><td align="center">no</td><td align="left">Indicates if the current user has write access</td></tr><tr class="b"><td align="left">$ReadAccess</td><td align="left">List</td><td align="center">no</td><td align="left">String list of User/Roles with read access</td></tr><tr class="a"><td align="left">$WriteAccess</td><td align="left">List</td><td align="center">no</td><td align="left">String list of User/Roles with write access</td></tr><tr class="b"><td align="left">$uniqueId</td><td align="left">String</td><td align="center">no</td><td align="left">The unique ID of this workItem</td></tr><tr class="a"><td align="left">$uniqueIdRef</td><td align="left">String</td><td align="center">yes</td><td align="left">A reference to a connected workItem (child process)</td></tr><tr class="b"><td align="left">$workitemid</td><td align="left">String</td><td align="center">no</td><td align="left">The process instance id of this workitem</td></tr><tr class="a"><th align="left">Status Information</th><th align="left"></th><th align="center"></th><th align="left"></th></tr><tr class="b"><td align="left">namcreator</td><td align="left">String</td><td align="center">no</td><td align="left">The user who created the workItem.</td></tr><tr class="a"><td align="left">namCurrentEditor</td><td align="left">String</td><td align="center">no</td><td align="left">The user who invoked the processWorkitem() method.</td></tr><tr class="b"><td align="left">namOwner</td><td align="left">List</td><td align="center">no</td><td align="left">String list of User/Roles, that are owners of that WorkItem.</td></tr><tr class="a"><td align="left">txtworkflowgroup</td><td align="left">String</td><td align="center">no</td><td align="left">The name of the current process group</td></tr><tr class="b"><td align="left">txtworkflowstatus</td><td align="left">String</td><td align="center">no</td><td align="left">The name of the current workflow status</td></tr><tr class="a"><td align="left">txtworkflowsummary</td><td align="left">String</td><td align="center">no</td><td align="left">A short description of the current status</td></tr><tr class="b"><td align="left">txtworkflowabstract</td><td align="left">String</td><td align="center">no</td><td align="left">A long description of the current status</td></tr><tr class="a"><td align="left">txtworkflowimageurl</td><td align="left">String</td><td align="center">no</td><td align="left">A link to an image which displays the current status</td></tr><tr class="b"><td align="left">txtworkflowhistorylog</td><td align="left">List</td><td align="center">no</td><td align="left">History of all processed activities</td></tr><tr class="a"><td align="left">txtworkflowresultmessage</td><td align="left">String</td><td align="center">no</td><td align="left">The result message of last process step</td></tr><tr class="b"><th align="left">Logging Information</th><th align="left"></th><th align="center"></th><th align="left"></th></tr><tr class="a"><td align="left">txtworkflowactivitylog</td><td align="left">List</td><td align="center">no</td><td align="left">Log of processed workflow activities</td></tr><tr class="b"><td align="left">txtworkflowpluginlog</td><td align="left">List</td><td align="center">no</td><td align="left">The plugin execution log</td></tr><tr class="a"><td align="left">timworkflowlastaccess</td><td align="left">Date</td><td align="center">no</td><td align="left">The timestamp of the last processing action</td></tr><tr class="b"><td align="left">numlastactivityid</td><td align="left">Integer</td><td align="center">no</td><td align="left">The last processed workflow activity ID</td></tr><tr class="a"><td align="left">namlasteditor</td><td align="left">String</td><td align="center">no</td><td align="left">The last user, that invoked the process method</td></tr></tbody></table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END row -->
+
+
+
+	</div>
+	<!-- END container -->
+
+	<div id="footer">
+		<div id="footer1">
+			&#169; 2006-2014 Imixs Software Solutions GmbH | <a
+				href="mailto:info@imixs.com">Contact</a> | <a
+				href="http://www.imixs.com/?page_id=56">Impressum</a>
+		</div>
+		<div id="footer2">fotos: © gordon bussiek | photocase.com</div>
+	</div>
+	<!-- END footer -->
+
+</body>
+</html>

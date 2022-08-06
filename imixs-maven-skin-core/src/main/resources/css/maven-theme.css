@@ -1,0 +1,239 @@
+body {
+	padding: 0px 0px 10px 0px;
+}
+
+body,td,select,input,li {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+}
+
+code {
+	font-family: Courier, monospace;
+	font-size: 13px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #36a;
+}
+
+a:visited {
+	color: #47a;
+}
+
+a:active,a:hover {
+	color: #69c;
+}
+
+#legend li.externalLink {
+	background: url(../images/external.png) left top no-repeat;
+	padding-left: 18px;
+}
+
+a.externalLink,a.externalLink:link,a.externalLink:visited,a.externalLink:active,a.externalLink:hover
+	{
+	background: url(../images/external.png) right center no-repeat;
+	padding-right: 18px;
+	
+}
+
+a.newWindow,a.newWindow:link,a.newWindow:visited,a.newWindow:active,a.newWindow:hover
+	{
+	background: url(../images/newwindow.png) right center no-repeat;
+	padding-right: 18px;
+}
+
+h2 {
+	padding: 4px 4px 4px 6px;
+	border: 1px solid #999;
+	color: #FFCC00;
+	background-color: #ddd;
+	font-weight: 900;
+	font-size: 24px;
+}
+
+h3 {
+	padding: 4px 4px 4px 6px;
+	border: 1px solid #aaa;
+	color: #900;
+	background-color: #eee;
+	font-weight: normal;
+	font-size: large;
+}
+
+h4 {
+	padding: 4px 4px 4px 6px;
+	border: 1px solid #bbb;
+	color: #900;
+	background-color: #fff;
+	font-weight: normal;
+	font-size: large;
+}
+
+h5 {
+	padding: 4px 4px 4px 6px;
+	color: #900;
+	font-size: normal;
+}
+
+p {
+	line-height: 1.3em;
+	font-size: small;
+}
+
+
+#breadcrumbs {
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 0px solid #CCC;
+	background-color: #EEE;
+	padding-left:0px;
+	padding-top:2px;
+}
+
+#breadcrumbs .xleft a.externalLink {
+	font-weight: bold;
+	color: #2D302C;
+	background: none;
+	padding:  4px 20px 5px 10px;
+
+}
+
+#breadcrumbs .xleft a.externalLink:HOVER {
+	background: #fff;
+}
+
+#breadcrumbs .xleft .selected {
+	font-weight: bold;
+	color: #2D302C;
+	background-color: #FFF;
+	font-size: 12px;
+	padding:5px 10px 5px 5px;
+}
+
+#legend li.newWindow {
+	background: url(../images/newwindow.png) left top no-repeat;
+	padding-left: 18px;
+}
+
+
+#footer {
+	border-top: 1px solid #CCC;
+}
+
+#leftColumn {
+	margin: 1px 0 0 0;
+	border: 0px;
+	background-color: #EEEEEE;
+}
+
+#navcolumn {
+	padding: 17px 0px 0pt 0px;
+}
+
+#navcolumn h5 {
+	border-bottom: 0px solid #FFCC00;
+	margin-top: 8px;
+	color: #FFF;
+	background: #086FA1;
+	padding: 0 5px;
+}
+
+#navcolumn li {
+	margin: 2px 0px 2px 4px;
+	padding: 0 0 0 6px;
+	font-size: 12px;
+	padding-left: 9px;
+	
+	border-top: 1px solid #EEE;
+	border-bottom: 1px solid #EEE;
+}
+
+#xnavcolumn li.none:HOVER,#xnavcolumn li.collapsed:HOVER  {
+	background-color: #80887B;
+}
+
+#xnavcolumn li.none:HOVER a,#xnavcolumn li.collapsed:HOVER a {
+	color: #DBCBAB;
+}
+
+#navcolumn li .selected {
+	font-weight: bold;
+	width: 100%;
+	background: #FFFFFF;
+}
+
+#navcolumn li .selected:HOVER {
+	xborder-top: 1px solid #ffcc00;
+	xborder-bottom: 1px solid #ffcc00;
+}
+
+table.bodyTable th {
+	color: white;
+	background-color: #bbb;
+	text-align: left;
+	font-weight: bold;
+}
+
+table.bodyTable th,table.bodyTable td {
+	font-size: 12px;
+}
+
+table.bodyTable tr.a {
+	background-color: #ddd;
+}
+
+table.bodyTable tr.b {
+	background-color: #eee;
+}
+
+.source {
+	background-color: #F6F6F6;
+	color: #666666;
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 11px;
+	border: 1px dotted #FFCC00;
+	line-height: 16px;
+	margin: 8px 0px;
+	max-height: 312px;
+	overflow: auto;
+	padding: 2px;
+	margin: 8px 0px;
+}
+
+dl {
+	padding: 4px 4px 4px 6px;
+	border: 1px solid #aaa;
+	background-color: #ffc;
+}
+
+dt {
+	color: #900;
+	padding-bottom: 0.3em;
+}
+
+#organizationLogo img,#projectLogo img,#projectLogo span {
+	margin: 8px;
+}
+
+#banner {
+	border-bottom: 1px solid #fff;
+}
+
+.errormark,.warningmark,.donemark,.infomark {
+	background: url(../images/icon_error_sml.gif) no-repeat;
+}
+
+.warningmark {
+	background-image: url(../images/icon_warning_sml.gif);
+}
+
+.donemark {
+	background-image: url(../images/icon_success_sml.gif);
+}
+
+.infomark {
+	background-image: url(../images/icon_info_sml.gif);
+}
