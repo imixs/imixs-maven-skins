@@ -12,7 +12,7 @@
   </bannerRight>
   <skin>
     <groupId>org.imixs.workflow</groupId>
-    <artifactId>imixs-maven-skin-core</artifactId>
+    <artifactId>imixs-maven-skin-office</artifactId>
     <version>1.0.0</version>
   </skin>
 </project>

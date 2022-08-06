@@ -6,6 +6,17 @@ header nav {
 background-color: #428BCA !important;;	
 }
 
+.col-nav {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+.col-content {
+	display: grid;
+	grid-column-start: 3;
+	grid-column-end: 12;
+}
+
 .terminal {
 	background-color: #000;
 	color: #fff;
@@ -54,8 +65,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  /* 4 */
+  font-family: 'Open Sans', sayns-serif;
 }
 
 /*
@@ -1033,6 +1043,9 @@ input:checked + .toggle-bg {
 
 .col-span-2 {
   grid-column: span 2 / span 2;
+}
+.col-span-12 {
+  grid-column: span 12 / span 12;
 }
 
 .mx-auto {
@@ -2232,6 +2245,9 @@ input:checked + .toggle-bg {
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
   }
+  .lg\:col-span-12 {
+    grid-column: span 12 / span 12;
+	}
 
   .lg\:col-span-5 {
     grid-column: span 5 / span 5;
