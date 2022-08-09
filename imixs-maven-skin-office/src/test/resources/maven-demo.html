@@ -1,0 +1,368 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Imixs Open Source Workflow &#x2013; How Imixs-Workflow Works</title>
+    
+    <link rel="stylesheet" href="../../main/resources/css/base.css" type="text/css" />
+    <link rel="stylesheet" href="../../main/resources/css/font/open_sans.css" type="text/css" />
+    <link rel="stylesheet" href="../../main/resources/css/maven.css" type="text/css" />
+    <link rel="stylesheet" href="../../main/resources/css/print.css" type="text/css" media="print" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="The open source workflow engine for human-centric business process management" />
+	<meta name="keywords" content="Workflow, workflow engine, BPM, BPMN, open source, java, business process management, Eclipse, Jakarta, JBoss, Wildfly, Workflow Management, Modeller Tool, Microservice, BPMN 2.0"/>
+	<meta http-equiv="expires" content="43200" />
+    <link rel="icon" href="./favicon.png" type="image/png" />
+    <!-- github integration -->
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+  <body>
+
+	<header>
+		<nav>
+			<div class="nav-title" >
+				<a href="#" > 
+					<span
+					class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+					style="color: #fff;">Imixs-Office-Workflow</span>
+				</a>
+			</div>
+			
+
+			
+			<div class="nav-menu" >
+			
+				<ul hidden>
+					<li><a href="#" aria-current="page">Home</a>
+					</li>
+					
+					<li>
+						<a href="#" >Quick-Start</a>
+					</li>
+					<li><a
+						href="https://github.com/imixs/imixs-workflow/discussions">Installation</a>
+					</li>
+					<li><a href="#"
+						>Documentation</a>
+					</li>
+					<li><a
+						href="https://github.com/imixs/imixs-workflow/discussions"
+						>Discussion</a>
+					</li>					
+				</ul>
+			</div>
+			
+			<div class="nav-github">
+				<a class="github-button"
+					href="https://github.com/imixs/imixs-office-workflow"
+					data-size="large" data-icon="octicon-star" data-show-count="true"
+					aria-label="Star imixs/imixs-office-workflow on GitHub">Star</a>
+				<a class="github-button"
+					href="https://github.com/imixs/imixs-office-workflow"
+					data-size="large"
+					aria-label="Follow @imixs-office-workflow on GitHub">View on
+					GitHub</a>
+				<!--  Menu - see: https://polypane.app/blog/the-perfect-responsive-menu/  -->
+				<button class="menu-button" aria-expanded="false" aria-controls="menu" title="open main menu">
+                    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+				</button>
+			</div>
+			
+		</nav>
+		
+		<script>
+			// display the menu if the menu button is clicked 
+			const toggleMenu = document.querySelector('.nav-github button');
+			const menu = document.querySelector('.nav-menu ul');
+	
+			toggleMenu.addEventListener('click', function () {
+			  const open = JSON.parse(toggleMenu.getAttribute('aria-expanded'));
+			  toggleMenu.setAttribute('aria-expanded', !open);
+			  menu.hidden = !menu.hidden;
+	
+			  if (!menu.hidden) {
+			    menu.querySelector('a').focus();
+			  }
+			});
+		
+		
+		</script>
+	</header>
+
+    
+    <!-- Content block -->
+    
+	<section style="padding-top: 112px;">
+		<div style="grid-column-start: span 2;">
+            <div class="col-nav">
+            	<div>
+		       		    
+  
+  
+    
+  		       		          <h5>Documentation</h5>
+            <ul>
+              
+                
+      
+              
+            <li class="expanded">
+              <div class="selected">Overview</div>
+                <ul>
+                  
+    <li class="none">
+                    <a href="quickstart.html">Quick Start</a>
+          </li>
+                  
+    <li class="none">
+                    <a href="modelling/howto.html">How to install</a>
+          </li>
+ 
+    <li class="none">
+                    <a href="quickstart/roles_responsibilities.html">Modelling Roles</a>
+          </li>
+              </ul>
+        </li>
+              
+                
+              
+      
+            
+      
+              
+        <li class="collapsed">
+                    <a href="modelling/index.html">BPMN 2.0</a>
+                </li>
+            
+      
+              
+        <li class="collapsed">
+                    <a href="engine/index.html">Workflow Engine</a>
+                </li>
+              
+        <li class="collapsed">
+                    <a href="core/index.html">Core API</a>
+                </li>
+            
+      
+      
+      
+              
+        <li class="collapsed">
+                    <a href="deployment/index.html">Deployment</a>
+                </li>
+              
+    <li class="none">
+                    <a href="sampleapplication.html">Sample Application</a>
+          </li>
+              
+  
+              
+    <li class="none">
+                    <a href="apidocs/index.html">JavaDocs</a>
+          </li>
+          </ul>
+              <h5>About the Project</h5>
+            <ul>
+              
+    <li class="none">
+                    <a href="goals.html">Goals</a>
+          </li>
+              
+    <li class="none">
+                    <a href="licenses.html">Project License</a>
+          </li>
+              
+    <li class="none">
+                    <a href="issue-management.html">Issue Tracking</a>
+          </li>
+              
+    <li class="none">
+                    <a href="dependencies.html">Dependencies</a>
+          </li>
+              
+    <li class="none">
+                    <a href="plugin-management.html">Plugin Management</a>
+          </li>
+          </ul>
+      		       		                              <a href="http://maven.apache.org/" title="Built by Maven" class="poweredBy">
+            <img alt="Built by Maven" src="./images/logos/maven-feather.png"></img>
+          </a>
+            		       		    
+  
+
+  
+    
+            
+  
+    
+  		        </div>
+             </div>
+        </div>  
+        <div class="maven-content" style="grid-column-start: span 10;">
+
+        	
+	    	<h1>The Imixs-Workflow Engine</h1>
+<p>The Imixs-Workflow engine consists of different service components. Each component maps a specific functionality into your workflow application:</p>
+<ul>
+
+<li>The <a href="./workflowservice.html">WorkflowService</a> &#x2192; the core component to create and update a process instance</li>
+<li>The <a href="./modelservice.html">ModelService</a> &#x2192; the management component for BPMN models.</li>
+<li>The <a href="./documentservice.html">DocumentService</a> &#x2192; the data access layer to store workflow related data</li>
+<li>The <a href="./reportservice.html">ReportService</a> &#x2192; a service component to create data reports</li>
+</ul>
+<p>All services can either be injected into a Java Enterprise application or can be accessed through its <a href="../restapi/index.html">RESTfull service API</a>.</p>
+<p>Further more, all services are subject to the <a href="./acl.html">Imixs-Workflow Security Model</a>. In this way only an authenticated access to these service components is allowed. This concept ensures the protection of your business data.</p><section><section>
+<h3><a name="The_WorkflowService"></a>The WorkflowService</h3>
+<p>The <i>WorkflowService</i> is the core service to create, update and read a process instance. To create a process instance a workitem is assigned to a BPMN 2.0  model definition managed by the <i>ModelService</i>.</p>
+
+<div class="source">
+<div class="source">
+<pre>@EJB
+WorkflowService workflowService;
+ItemCollection workitem=new ItemCollection().model(&quot;1.0.0&quot;).task(100).event(10);
+workitem=workflowService.processWorkItem(workitem);
+</pre></div></div>
+
+<p>Read more about in the section <a href="../engine/workflowservice.html">Imixs WorkflowService</a>.</p></section><section>
+<h3><a name="The_DocumentService"></a>The DocumentService</h3>
+<p>The <i>DocumentService</i> is the general persistence layer of the Imixs-Workflow engine and provides an interface to store, load and query data objects (<i>Documents</i>) within a database. The <i>DocumentService</i> is independent from the workflow engine and can not only be used to persist a process instance (<i>workitem</i>), but also any other kind of business data, not necessarily associated with the workflow engine (e.g configuration data).</p>
+
+<div class="source">
+<div class="source">
+<pre>@EJB
+DocumentService documentService;
+ItemCollection myDocument=new ItemCollection;
+myDocument.setItemValue(&quot;type&quot;,&quot;product&quot;);
+myDocument.setItemValue(&quot;name&quot;,&quot;coffee&quot;);
+myDocument=documentService.save(myDocument);
+</pre></div></div>
+
+<p>The <i>DocumentService</i> provides also a <a href="./luceneservice.html">Full-Text-Search</a>. In this way documents can be accessed through a search query:</p>
+
+<div class="source">
+<div class="source">
+<pre>List&lt;ItemCollection&gt; result=documentService.find(&quot;(type:'workitem')(imixs*)&quot;);
+</pre></div></div>
+
+<p>Read more about in the section <a href="../engine/documentservice.html">DocumentService</a>.</p></section><section>
+<h3><a name="The_ModelService"></a>The ModelService</h3>
+<p>The <i>ModelService</i> provides methods to manage BPMN model definitions. A model can be created with the Eclipse based modeling tool <a href="../modelling/index.html">Imixs-BPMN</a>.</p>
+
+<div class="source">
+<div class="source">
+<pre>@EJB
+ModelService modelService;
+InputStream inputStream = new FileInputStream(new File(&quot;ticket.bpmn&quot;));
+ticketModel = BPMNParser.parseModel(inputStream, &quot;UTF-8&quot;);
+modelService.addModel(model);
+</pre></div></div>
+
+<p>The <i>ModelService</i> is used internally by the <i>WorkflowService</i> but can also be used by your application to navigate through a model definition.</p>
+
+<div class="source">
+<div class="source">
+<pre>@EJB
+ModelService modelService;
+Model ticketModel = modelService.getModel(&quot;ticket-1.0.0&quot;);
+List&lt;ItemCollection&gt; tasks = modelService.findAllTasks();
+</pre></div></div>
+
+<p>Read more about in the section <a href="../engine/modelservice.html">ModelService</a>.</p></section><section>
+<h3><a name="The_ReportService"></a>The ReportService</h3>
+<p>The <i>ReportService</i> component supports methods to create, find and execute business reports created with the Eclipse based <a href="../modelling/index.html">Imixs-Workflow Modeler</a>. A report is used to generate aggregated information from data objects managed by the <i>DocumentService</i>.</p></section></section>
+	    	
+        </div>
+   
+    </section>
+    <!-- End block -->
+
+                
+      
+      
+      
+      
+      
+    </section>
+    <!-- End block -->
+   
+                
+   		
+   
+	<!-- footer -->
+	<footer>
+
+		<hr class="">
+		<section class="content">
+
+			<div style="grid-column-start: span 3;">
+				<h3>Company</h3>
+				<ul class="text-gray-500 dark:text-gray-400">
+					<li class="mb-4"><a href="https://www.imixs.com"
+						class=" hover:underline">Imixs Softwae Solutions GmbH</a></li>
+					<li class="mb-4"><a href="https://www.office-workflow.de"
+						class="hover:underline">Imixs-Office-Workflow</a></li>
+					<li class="mb-4"><a href="https://www.imixs.com/contact/"
+						class="hover:underline">Contact</a></li>
+
+				</ul>
+			</div>
+			<div style="grid-column-start: span 3;">
+				<h3>Help
+					center</h3>
+				<ul class="text-gray-500 dark:text-gray-400">
+					<li class="mb-4"><a href="./index.html"
+						class="hover:underline">Documentation</a></li>
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-workflow/discussions"
+						class="hover:underline">Discussion</a></li>
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-office-workflow/releases"
+						class="hover:underline">Releases</a></li>
+
+				</ul>
+
+			</div>
+			<div style="grid-column-start: span 3;">
+
+				<h3>Subprojects</h3>
+				<ul class="text-gray-500 dark:text-gray-400">
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-bpmn/"
+						class="hover:underline">Imixs-BPMN</a></li>
+
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-archive"
+						class="hover:underline">Imixs-Archive</a></li>
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-adapters"
+						class="hover:underline">Imixs-Adapters</a></li>
+					<li class="mb-4"><a href="https://github.com/imixs/imixs-ml"
+						class="hover:underline">Imixs-ML</a></li>
+				</ul>
+			</div>
+			<div style="grid-column-start: span 3;">
+				<h3>Legal</h3>
+				<ul class="text-gray-500 dark:text-gray-400">
+
+					<li class="mb-4"><a
+						href="https://github.com/imixs/imixs-office-workflow/blob/master/LICENSE"
+						class="hover:underline">Licensing</a></li>
+					<li class="mb-4"><a
+						href="https://www.imixs.com/about/datenschutz/"
+						class="hover:underline">Privacy Policy</a></li>
+					<li class="mb-4"><a
+						href="https://www.imixs.com/about/impressum/"
+						class="hover:underline">Terms</a></li>
+				</ul>
+			</div>
+
+
+
+
+		</section>
+	</footer>
+
+</body>
+</html>
