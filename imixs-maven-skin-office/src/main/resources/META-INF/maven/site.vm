@@ -327,20 +327,10 @@
 			<div class="nav-menu" >
 			
 				<ul hidden>
-					<li><a href="$relativePath/index.html" aria-current="page">Home</a>
-					</li>
-					
-					<li>
-						<a href="$relativePath/quickstart.html" >Quick-Start</a>
-					</li>
-					
-					<li><a href="#"
-						>Documentation</a>
-					</li>
-					<li><a
-						href="https://github.com/imixs/imixs-workflow/discussions"
-						>Discussion</a>
-					</li>					
+					<li><a href="$relativePath/index.html" aria-current="page">Home</a></li>
+					<li><a href="$relativePath/overview.html">Documentation</a></li>
+					<li><a href="$relativePath/quickstart.html" >Quick-Start</a></li>
+					<li><a href="https://github.com/imixs/imixs-workflow/discussions">Discussion</a></li>										
 				</ul>
 			</div>
 			
