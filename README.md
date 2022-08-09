@@ -2,13 +2,12 @@
 
 This project provides some Maven Site Skins used in the Imixs Workflow Project
 
-
-https://kinsta.com/de/blog/statische-webseiten-generatoren/
+<img width="700" src="imixs-maven-skin-office/example-01.png" />
 
 
 ## Build 
 
-To build current version run:
+To build current version of all Maven Skins run:
 
 	$ mvn clean install
 
