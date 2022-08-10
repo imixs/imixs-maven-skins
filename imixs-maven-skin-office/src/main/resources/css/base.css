@@ -5,6 +5,7 @@
 html {
 	line-height: 1.5;
 	font-family: 'Open Sans', sayns-serif;
+	color: #333;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
 Reset links to optimize for opt-in styling instead of opt-out.
 */
 a {
-	color: inherit;
+	color: #3886CA;
 	text-decoration: inherit;
 }
 
@@ -67,7 +68,7 @@ small {
 header {
 	position: fixed;
 	width: 100%;
-	background-color: #428BCA !important;
+	background-color: #428BCA;
 }
 
 /* https://polypane.app/blog/the-perfect-responsive-menu */
@@ -80,6 +81,9 @@ header nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+}
+header nav a {
+	color: #000;
 }
 
 header nav .nav-title {

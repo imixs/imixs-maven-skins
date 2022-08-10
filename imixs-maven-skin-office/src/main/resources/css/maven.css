@@ -40,10 +40,20 @@
     margin-left: 30px;
 }
 
+.maven-content .screenshot {
+	max-width: 720px;
+	object-fit: cover;
+	padding: 3px;
+	box-shadow: 4px 8px 8px #ddd;
+}
 /* Maven Nav */
+
 .col-nav li {
 	margin-left: 15px !important; 
 	display: block;
+}
+.col-nav  a { 
+	color: #333;
 }
 .col-nav li>ul>li:hover {
 	background: #ccc; 
