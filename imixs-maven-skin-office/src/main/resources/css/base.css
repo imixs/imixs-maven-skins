@@ -235,12 +235,19 @@ section .terminal {
 	border: 3px solid #F3BF36;
 }
 
+section .image-gallery-item {
+	grid-column-start: span 2;
+}
 
 /* Footer */
 footer {
 	max-width: 1280px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+footer section div {
+	grid-column-start: span 3;
 }
 
 footer h3 {
@@ -250,10 +257,25 @@ footer h3 {
 }
 
 
-
-
 @media ( max-width : 768px) {
 	section {
 		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		grid-column-gap: inherit;
+	}
+	footer section div {
+	grid-column-start: span 1;
+	}
+	section .image-gallery-item {
+		grid-column-start: 1;
+		text-align: center;
+	}
+	section .image-gallery-item img {
+		max-height: 40px;
+	}
+	section h1.lead {
+    	font-size: 2.75rem;
+	}
+	section .button {
+    	font-size: 1.1em;    
 	}
 }
