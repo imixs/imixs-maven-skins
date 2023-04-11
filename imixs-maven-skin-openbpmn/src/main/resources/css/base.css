@@ -10,6 +10,7 @@ html {
 
 body {
 	margin: 0;
+	background-color: #fdfdfd;
 }
 
 /*
@@ -68,6 +69,7 @@ small {
 header {
 	position: fixed;
 	width: 100%;
+	color: #dbdbdb;
 	background-color: #3d4348;
 }
 
@@ -83,7 +85,7 @@ header nav {
 	align-items: center;
 }
 header nav a {
-	color: #fff;
+	color: #dbdbdb;
 }
 
 header nav .nav-title {
@@ -91,7 +93,6 @@ header nav .nav-title {
 	display: flex;
 	order: 1;
 	font-size: 1.5rem;
-	margin-left: 10px;
 }
 
 header nav .nav-menu {
@@ -186,10 +187,11 @@ section {
 
 
 section h1.lead {
-	font-size: 3.75rem;
+	font-size: 2.3rem;
+	
 	line-height: 1;
-	font-weight: 800;
-	margin: 0 0 40px 0;
+	font-weight: 400;
+	margin: 0 0 0px 0px;
 }
 
 section p {
@@ -204,6 +206,7 @@ section p.lead {
 
 section h2.lead {
 	font-weight: 800;
+	color: #4F5A6F;
 }
 
 section li {
@@ -214,12 +217,12 @@ section li {
 section li svg {
 	margin-right: 10px;
 	height: 1.25rem;
-	color: #FCB802;
+	color: #F17405;
 }
 
 
 section .button {
-	background-color: #FCB802;
+	background-color: #F0B807;
 	border-radius: 0.5rem;
 	padding: 0.625rem 1.25rem;
 	color: #fff;
@@ -232,7 +235,7 @@ section .terminal {
 	min-height: 400px;
 	padding: 20px;
 	border-radius: 10px;
-	border: 3px solid #F3BF36;
+	border: 3px solid #F17405;
 }
 
 section .image-gallery-item {
@@ -243,7 +246,10 @@ section .image-gallery-item {
 footer {
 	background-color: #3d4348;
 	color: #fff;
+}
 
+footer a {
+	color: #dbdbdb;
 }
 
 footer section div {
@@ -253,7 +259,7 @@ footer section div {
 footer h3 {
 	font-size: 0.875rem;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 800;
 }
 
 

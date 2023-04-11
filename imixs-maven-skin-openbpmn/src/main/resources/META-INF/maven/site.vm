@@ -397,53 +397,41 @@
 		<hr class="">
 		<section class="content">
 
-			<div style="grid-column-start: span 3;">
+					<div>
 				<h3>Company</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
 					<li class="mb-4"><a href="https://www.imixs.com"
 						class=" hover:underline">Imixs Softwae Solutions GmbH</a></li>
-					<li class="mb-4"><a href="https://www.office-workflow.de"
-						class="hover:underline">Imixs-Office-Workflow</a></li>
-					<li class="mb-4"><a href="https://www.imixs.com/contact/"
-						class="hover:underline">Contact</a></li>
+				
 
 				</ul>
 			</div>
-			<div style="grid-column-start: span 3;">
+			<div>
 				<h3>Help
 					center</h3>
-				<ul class="text-gray-500 dark:text-gray-400">
-					<li class="mb-4"><a href="./index.html"
-						class="hover:underline">Documentation</a></li>
+				<ul class="text-gray-500 dark:text-gray-400">				
 					<li class="mb-4"><a
 						href="https://github.com/imixs/open-bpmn/discussions"
 						class="hover:underline">Discussion</a></li>
 					<li class="mb-4"><a
 						href="https://github.com/imixs/open-bpmn/releases"
 						class="hover:underline">Releases</a></li>
-
 				</ul>
 
 			</div>
-			<div style="grid-column-start: span 3;">
-
-				<h3>Subprojects</h3>
+			<div>
+				<h3>Projects</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
 					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-office-workflow/"
-						class="hover:underline">Imixs-Office-Workflow</a></li>
+						href="https://www.imixs.org"
+						class="hover:underline">Imixs-Workflow</a></li>
 
 					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-archive"
-						class="hover:underline">Imixs-Archive</a></li>
-					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-adapters"
-						class="hover:underline">Imixs-Adapters</a></li>
-					<li class="mb-4"><a href="https://github.com/imixs/imixs-ml"
-						class="hover:underline">Imixs-ML</a></li>
+						href="https://doc.office-workflow.com/"
+						class="hover:underline">Imixs-Office-Workflow</a></li>
 				</ul>
 			</div>
-			<div style="grid-column-start: span 3;">
+			<div>
 				<h3>Legal</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
 
