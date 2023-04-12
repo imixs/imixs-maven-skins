@@ -315,14 +315,12 @@
 	<header>
 		<nav>
 			<div class="nav-title" >
-				<a href="#" > 
+				<a href="$relativePath/index.html"> 
 					<span
 					class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
 					style="color: #fff;">Open BPMN</span>
 				</a>
-			</div>
-			
-
+			</div>			
 			
 			<div class="nav-menu" >
 			

@@ -11,14 +11,14 @@
 <!-- Meta SEO -->
 <meta name="title" content="Open-BPMN - Documentation">
 <meta name="description"
-	content="Get started with Open-BPMN.">
+	content="Free BPMN 2.0 Modeling Platform">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
 <meta name="author" content="ralph.soika@imixs.com">
 
 <style type="text/css" media="all">
-@import url("./css/font/open_sans.css");
+	@import url("./css/font/open_sans.css");
 </style>
 <meta name="theme-color" content="#ffffff">
 <link href="./css/base.css" rel="stylesheet">
@@ -35,8 +35,6 @@
 					style="color: #fff;">Open BPMN</span>
 				</a>
 			</div>
-			
-
 			
 			<div class="nav-menu" >
 			
@@ -69,18 +67,14 @@
 			// display the menu if the menu button is clicked 
 			const toggleMenu = document.querySelector('.nav-github button');
 			const menu = document.querySelector('.nav-menu ul');
-	
 			toggleMenu.addEventListener('click', function () {
 			  const open = JSON.parse(toggleMenu.getAttribute('aria-expanded'));
 			  toggleMenu.setAttribute('aria-expanded', !open);
 			  menu.hidden = !menu.hidden;
-	
 			  if (!menu.hidden) {
 			    menu.querySelector('a').focus();
 			  }
 			});
-		
-		
 		</script>
 	</header>
 
@@ -95,13 +89,13 @@
 				The Free Modeling Platform
 			</h1>
 			<p class="lead">
-				<strong>Open BPMN</strong> is a free and open modeling platform to create and maintain business models based on the BPMN 2.0 standard. 
+				<strong>Open BPMN</strong> is a free and open modeling platform to view, create and maintain BPM models based on the BPMN 2.0 standard. 
 				<strong>Open BPMN</strong> can be used by business analysts to design a top level business process, as also by architects and 
 				developers to model the technical details of complex processing logic. 
-				</p>
+			</p>
 
 			<p style="text-align: center;padding-top: 20px;">
-				<a href="overview.html" class="button">Get started...</a>
+				<a href="https://open-bpmn.imixs.org/" target="_blank" class="button">Try it Online...</a>
 			</p>
 
 		</div>
@@ -121,19 +115,15 @@
 			<h2 class="lead">Open Source Software Model</h2>
 			<p class="lead">
 				<strong>Open BPMN</strong> is based on a free license model. The <i>Eclipse Public License</i>
-				gives you the freedom to use Open-BPMN in your own projects without restrictions.
-				
-				
-			
-				
+				gives you the freedom to use Open-BPMN in your own projects without any boundaries.			
 			</p>
 			<p>
 				As a result, 
-				projects are not restricted in any way when using Open-BPMN. Also, there are no license costs. 
-				Open-BPMN is hosted on Github and is divided into several subprojects.
-				introduces an extensibility mechanism that enables you  
-				to customize the behavior and appearance of the modeling platform for your own solutions. 
-				
+				projects are not restricted in any way when using <strong>Open BPMN</strong>. Also, there are no license costs. 
+				The project is hosted on <a href="https://github.com/imixs/open-bpmn" target="_blank">Github</a> and includes several subprojects.
+			
+				We invite you to join this project!
+			
 			</p>
 		</div>
 
@@ -147,10 +137,8 @@
 				or extending the <a href="https://www.eclipse.org/glsp/" target="_blank">Eclipse Graphical Language Server Platform (GLSP)</a>.
 			</p>
 			<p>
-				The extension mechanism can be used to add new BPMN elements or Artifacts to satisfy a specific need, 
-				such as the unique requirements of a vertical domain, and still have a valid BPMN Core.				
-			</p>
-			<p>
+				This extension mechanism can be used to adapt BPMN elements to the unique requirements of a vertical domain, and still have a valid BPMN Core.				
+			
 				Open Source Workflow Engines like <a href="https://www.imixs.org" target="_blank">Imixs-Workflow</a> already integrate Open BPMN into there 
 				tooling platforms.
 				
@@ -170,19 +158,18 @@
 		<div style="grid-column-start: span 6;">
 			<h2 class="lead">Platform Neutral</h2>
 			<p class="lead">
-				<strong>Open BPMN</strong> is based on modern web technology. This architecture makes it possible to run Open BPMN on various IDEs and platforms.
+				<strong>Open BPMN</strong> is based on modern web technology 
+				<a href="https://www.eclipse.org/glsp/" target="_blank">(GLSP)</a>. This architecture makes it possible to run Open BPMN on various IDEs and platforms.
 			</p>
 			<p>
-				The technology is based on a modern web based diagram framework.
-
-				In this way <strong>Open BPMN</strong> can be run on different IDEs such as 
+				<strong>Open BPMN</strong> can be run on different IDEs such as 
 				<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, 
 				<a href="https://eclipse.org/" target="_blank">Eclipse IDE</a>, 
 				<a href="https://theia-ide.org/" target="_blank">Eclipse Theia</a> as well as as a standalone web application. 
 				
 				
 			</p>
-			<p class="lead">
+			<p class="">
 				To run Open-BPMN in Visual Studio Code you can install the 
 				<a href="https://marketplace.visualstudio.com/items?itemName=open-bpmn.open-bpmn-vscode-extension">Open BPMN Extension</a>. 
 
