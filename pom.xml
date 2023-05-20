@@ -8,6 +8,7 @@
 	<modules>
 		<module>imixs-maven-skin-core</module>
 		<module>imixs-maven-skin-office</module>
+		<module>imixs-maven-skin-openbpmn</module>
 	</modules>
 	
 	<!-- Distributen Management oss.sonatype.org -->
