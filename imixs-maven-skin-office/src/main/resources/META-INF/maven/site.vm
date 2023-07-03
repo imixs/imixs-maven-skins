@@ -309,13 +309,27 @@
     <link rel="icon" href="$relativePath/favicon.png" type="image/png" />
     <!-- github integration -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
+  <!-- Matomo -->
+  <script>
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//stats.imixs.com/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '7']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->  
   </head>
   <body>
 
 	<header>
 		<nav>
 			<div class="nav-title" >
-				<a href="#" > 
+				<a href="$relativePath/index.html"> 
 					<span
 					class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
 					style="color: #fff;">Imixs-Office-Workflow</span>
