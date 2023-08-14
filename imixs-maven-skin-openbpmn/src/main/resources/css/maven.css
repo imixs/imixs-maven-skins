@@ -22,6 +22,7 @@
 
 .maven-content .source pre {
     padding: 10px 15px;
+    overflow: auto;
 }
 
 .maven-content table.bodyTable th,.maven-content table.bodyTable td {
