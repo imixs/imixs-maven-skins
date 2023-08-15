@@ -54,9 +54,11 @@ code, kbd, samp, pre {
 		"Liberation Mono", "Courier New", monospace;
 	/* 1 */
 	font-size: 1em;
-	/* 2 */
+	color: #6194bf;
 }
-
+div pre {
+	color: #34648c;
+}
 /*
 Add the correct font size in all browsers.
 */
