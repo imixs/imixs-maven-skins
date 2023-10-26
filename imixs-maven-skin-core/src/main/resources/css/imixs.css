@@ -283,9 +283,10 @@ pre {
 	float: left;
 	background-image: url("logo.png");
 	background-repeat: no-repeat;
-	background-position: 15px 5px;
+	background-position: 20px 2px;
 	height: 80px;
-	width: 164px;
+	width: 145px;
+	background-size: 95px;
 }
 
 #imixs-branding {
