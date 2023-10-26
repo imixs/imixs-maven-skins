@@ -270,7 +270,7 @@ pre {
 	float: left;
 	width: 100%;
 	margin: 0em;
-	padding: 50px 10px 20px 30px;
+	padding: 50px 10px 24px 30px;
 	background-color: #FCB802;
 }
 
@@ -333,7 +333,7 @@ pre {
 
 .imixs-brandingtext2 span {
 	font-size: 30px;
-	color: #80887b;
+	color: #5a5a5a;
 }
 
 .imixs-brandingtext3 {
@@ -341,7 +341,7 @@ pre {
 	color: #FFFFFF;
 	font-size: 16px;
 	font-weight: normal;
-	padding: 0 0 0 7px;
+	padding: 0 0 0 5px;
 	text-align: right;
 	white-space: nowrap;
 }
