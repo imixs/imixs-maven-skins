@@ -299,11 +299,13 @@
 		@import url("$relativePath/css/imixs.css");
 		@import url("$relativePath/css/font/open_sans.css");
 		@import url("$relativePath/css/font/typicons.min.css");
+    @import url("$relativePath/highlight/gml.min.css");
     </style>
-    
+    <script src="${relativePath}/highlight/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 
     
-    <link rel="stylesheet" href="$relativePath/css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="${relativePath}/css/print.css" type="text/css" media="print" />
     #foreach( $author in $authors )
       <meta name="author" content="$author" />
     #end

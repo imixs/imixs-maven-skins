@@ -108,14 +108,24 @@ a:hover {
 }
 
 pre {
-	background-color: #2B2717;;
-    color: #BDBCB8;
+	background: none;
     font-family: Consolas, "Courier New", monospace;
-    font-size: 14px;
+    font-size: 16px;
     margin: 8px 0px;
     max-height: 312px;
     overflow: auto;
-    padding: 16px;
+    padding: 0;
+}
+
+code {
+	font-family: Consolas, "Courier New", monospace !important;
+	font-size: inherit;
+	background-color: #999;
+}
+code span {
+	font-family: Consolas, "Courier New", monospace !important;
+	font-size: inherit;
+	color: inherit;
 }
 
 #container {
