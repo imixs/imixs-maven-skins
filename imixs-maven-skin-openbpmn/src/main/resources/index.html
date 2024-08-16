@@ -11,7 +11,7 @@
 <!-- Meta SEO -->
 <meta name="title" content="Open-BPMN - Documentation">
 <meta name="description"
-	content="Free BPMN 2.0 Modeling Platform">
+	content="Free BPMN modeling tool to view, create and maintain BPMN 2.0 models. Open-BPMN is Open Source. You can create your BPMN 2.0 Models in VS-Code, Eclipse or on your own Web Server.">
 <meta name="robots" content="index, follow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="language" content="English">
@@ -165,9 +165,9 @@
 			</p>
 			<p>
 				<strong>Open BPMN</strong> can be run on different IDEs such as 
-				<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a>, 
+				<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code (VS-Code)</a>, 
 				<a href="https://eclipse.org/" target="_blank">Eclipse IDE</a>, 
-				<a href="https://theia-ide.org/" target="_blank">Eclipse Theia</a> as well as as a standalone web application. 
+				<a href="https://theia-ide.org/" target="_blank">Eclipse Theia</a> as well as in your own web application! 
 				
 				
 			</p>
@@ -186,7 +186,7 @@
 
 	<!-- Start block -->
 	<section class="">
-		<div style="grid-column-start: span 12;">
+		<div style="grid-column-start: span 6;">
 		
 			<h2 class="lead">What is BPMN 2.0?</h2>
 			<p class="lead">
@@ -202,6 +202,26 @@
 				workflows but also higher-level collaborations between business partners and the choreography of information flows between 
 				applications, microservices and cloud platforms.
 			</p>
+		</div>
+		<div style="grid-column-start: span 6;">
+		
+			<h2 class="lead">The BPMN Meta Model</h2>
+			<p class="lead">
+				Open BPMN provides a Java Meta Model used to create, load and manipulate a BPMN 2.0 model programmatically. 
+				
+			</p>
+			<p>
+				The Open-BPMN Meta Model can be downloaded form <a href="https://github.com/imixs/open-bpmn/tree/master/open-bpmn.metamodel">Github</a>.
+				 The library is based on the org.w3c.dom XML API and operates directly on the dom Nodes which makes this Meta Model very flexible.
+				  The Open BPMN Meta Model allows you to handle any kind of BPMN model and also work with BPMN 2.0 extensions and add your own extensions.
+				  You can use it with maven: 
+			</p>
+			<div style="background: #282b2e;color: #a9b7c6;padding: 10px 20px;" ><pre style="margin:0;">&lt;dependency&gt;
+  &lt;groupId&gt;org.imixs.bpmn&lt;/groupId&gt;
+  &lt;artifactId&gt;open-bpmn.metamodel&lt;/artifactId&gt;
+  &lt;version&gt;${openbpmn.version}&lt;/version&gt;
+&lt;/dependency&gt;</pre></div>
+
 		</div>
 	</section>
 	

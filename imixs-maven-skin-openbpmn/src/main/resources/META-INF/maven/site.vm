@@ -303,7 +303,7 @@
     #end
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=${outputEncoding}" />
-	<meta name="description" content="The open source workflow engine for human-centric business process management" />
+	<meta name="description" content="Free BPMN modeling tool to view, create and maintain BPMN 2.0 models. Open-BPMN is Open Source. You can create your BPMN 2.0 Models in VS-Code, Eclipse or on your own Web Server." />
 	<meta name="keywords" content="Workflow, workflow engine, BPM, BPMN, open source, java, business process management, Eclipse, Jakarta, JBoss, Wildfly, Workflow Management, Modeller Tool, Microservice, BPMN 2.0"/>
 	<meta http-equiv="expires" content="43200">
     <link rel="icon" href="$relativePath/favicon.png" type="image/png" />
