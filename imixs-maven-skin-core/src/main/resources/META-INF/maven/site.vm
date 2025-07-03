@@ -302,6 +302,12 @@
     @import url("$relativePath/highlight/androidstudio.min.css");
     </style>
     <script src="${relativePath}/highlight/highlight.min.js"></script>
+    <script src="${relativePath}/highlight/languages/bash.min.js"></script>
+    <script src="${relativePath}/highlight/languages/css.min.js"></script>
+    <script src="${relativePath}/highlight/languages/javascript.min.js"></script>
+    <script src="${relativePath}/highlight/languages/java.min.js"></script>
+    <script src="${relativePath}/highlight/languages/json.min.js"></script>
+    <script src="${relativePath}/highlight/languages/xml.min.js"></script>
     <script>hljs.highlightAll();</script>
 
     
