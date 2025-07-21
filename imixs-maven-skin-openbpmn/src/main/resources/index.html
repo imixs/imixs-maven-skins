@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<link rel="canonical"
-	href="https://https://demo.themesberg.com/landwind/" />
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Open-BPMN - Documentation</title>
+	<link rel="canonical" href="https://https://demo.themesberg.com/landwind/" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Open-BPMN - Documentation</title>
 
-<!-- Meta SEO -->
-<meta name="title" content="Open-BPMN - Documentation">
-<meta name="description"
-	content="Free BPMN modeling tool to view, create and maintain BPMN 2.0 models. Open-BPMN is Open Source. You can create your BPMN 2.0 Models in VS-Code, Eclipse or on your own Web Server.">
-<meta name="robots" content="index, follow">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="language" content="English">
-<meta name="author" content="ralph.soika@imixs.com">
+	<!-- Meta SEO -->
+	<meta name="title" content="Open-BPMN - Documentation">
+	<meta name="description"
+		content="Free BPMN modeling tool to view, create and maintain BPMN 2.0 models. Open-BPMN is Open Source. You can create your BPMN 2.0 Models in VS-Code, Eclipse or on your own Web Server.">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="language" content="English">
+	<meta name="author" content="ralph.soika@imixs.com">
 
-<style type="text/css" media="all">
-	@import url("./css/font/open_sans.css");
-</style>
-<meta name="theme-color" content="#ffffff">
-<link href="./css/base.css" rel="stylesheet">
+	<style type="text/css" media="all">
+		@import url("./css/font/open_sans.css");
+	</style>
+	<meta name="theme-color" content="#ffffff">
+	<link href="./css/base.css" rel="stylesheet">
 
-<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
+
 <body>
 	<header>
 		<nav>
-			<div class="nav-title" >
-				<a href="#" > 
-					<span
-					class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
-					style="color: #fff;">Open BPMN</span>
+			<div class="nav-title">
+				<a href="#">
+					<span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white"
+						style="color: #fff;">Open BPMN</span>
 				</a>
 			</div>
-			
-			<div class="nav-menu" >
-			
+
+			<div class="nav-menu">
+
 				<ul hidden>
 					<li><a href="index.html" aria-current="page">Home</a></li>
 					<li><a href="overview.html">Documentation</a></li>
-					<li><a href="https://github.com/imixs/open-bpmn/discussions">Discussion</a></li>					
+					<li><a href="https://github.com/imixs/open-bpmn/discussions">Discussion</a></li>
 				</ul>
 			</div>
-			
+
 			<div class="nav-github">
-				<a class="github-button"
-					href="https://github.com/imixs/open-bpmn"
-					data-size="large" data-icon="octicon-star" data-show-count="true"
-					aria-label="Star imixs/open-bpmn on GitHub">Star</a>
-				<a class="github-button"
-					href="https://github.com/imixs/open-bpmn"
-					data-size="large"
+				<a class="github-button" href="https://github.com/imixs/open-bpmn" data-size="large"
+					data-icon="octicon-star" data-show-count="true" aria-label="Star imixs/open-bpmn on GitHub">Star</a>
+				<a class="github-button" href="https://github.com/imixs/open-bpmn" data-size="large"
 					aria-label="Follow @open-bpmn on GitHub">View on
 					GitHub</a>
 				<!--  Menu - see: https://polypane.app/blog/the-perfect-responsive-menu/  -->
 				<button class="menu-button" aria-expanded="false" aria-controls="menu" title="open main menu">
-                    <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+					<svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd"
+							d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+							clip-rule="evenodd"></path>
+					</svg>
 				</button>
 			</div>
-			
+
 		</nav>
-		
+
 		<script>
 			// display the menu if the menu button is clicked 
 			const toggleMenu = document.querySelector('.nav-github button');
 			const menu = document.querySelector('.nav-menu ul');
 			toggleMenu.addEventListener('click', function () {
-			  const open = JSON.parse(toggleMenu.getAttribute('aria-expanded'));
-			  toggleMenu.setAttribute('aria-expanded', !open);
-			  menu.hidden = !menu.hidden;
-			  if (!menu.hidden) {
-			    menu.querySelector('a').focus();
-			  }
+				const open = JSON.parse(toggleMenu.getAttribute('aria-expanded'));
+				toggleMenu.setAttribute('aria-expanded', !open);
+				menu.hidden = !menu.hidden;
+				if (!menu.hidden) {
+					menu.querySelector('a').focus();
+				}
 			});
 		</script>
 	</header>
@@ -83,28 +83,28 @@
 		<div style="grid-column-start: span 7;">
 
 			<h1 class="lead">
-				<img style="margin-right:20px;"
-				src="./images/logo-openbpmn-no-margin.png"
-				alt="Open-BPMN">
+				<img style="margin-right:20px;" src="./images/logo-openbpmn-no-margin.png" alt="Open-BPMN">
 				The Free Modeling Platform
 			</h1>
 			<p class="lead">
-				<strong>Open BPMN</strong> is a free and open modeling platform to view, create and maintain BPM models based on the BPMN 2.0 standard. 
-				<strong>Open BPMN</strong> can be used by business analysts to design a top level business process, as also by architects and 
-				developers to model the technical details of complex processing logic. 
+				<strong>Open BPMN</strong> is a free and open modeling platform to view, create and maintain BPM models
+				based on the BPMN 2.0 standard.
+				<strong>Open BPMN</strong> can be used by business analysts to design a top level business process, as
+				also by architects and
+				developers to model the technical details of complex processing logic.
 			</p>
 
 			<p style="text-align: center;padding-top: 20px;">
-				<a href="https://open-bpmn.imixs.org/#/home/node/app/open-bpmn.glsp-client/workspace" target="_blank" class="button">Try it Online...</a>
+				<a href="https://open-bpmn.imixs.org/#/app/open-bpmn.glsp-client/workspace" target="_blank"
+					class="button">Try it Online...</a>
 
-				<a style="margin-left:60px;" href="https://www.open-bpmn.org/how_to_model.html" class="button">How to Start...</a>
+				<a style="margin-left:60px;" href="https://www.open-bpmn.org/how_to_model.html" class="button">How to
+					Start...</a>
 			</p>
 
 		</div>
 		<div style="grid-column-start: span 5;">
-			<img
-				src="./images/imixs-bpmn-001.png"
-				alt="Open-BPMN">
+			<img src="./images/imixs-bpmn-001.png" alt="Open-BPMN">
 		</div>
 	</section>
 	<!-- End block -->
@@ -117,15 +117,17 @@
 			<h2 class="lead">Open Source Software Model</h2>
 			<p class="lead">
 				<strong>Open BPMN</strong> is based on a free license model. The <i>Eclipse Public License</i>
-				gives you the freedom to use Open-BPMN in your own projects without any boundaries.			
+				gives you the freedom to use Open-BPMN in your own projects without any boundaries.
 			</p>
 			<p>
-				As a result, 
-				projects are not restricted in any way when using <strong>Open BPMN</strong>. Also, there are no license costs. 
-				The project is hosted on <a href="https://github.com/imixs/open-bpmn" target="_blank">Github</a> and includes several subprojects.
-			
+				As a result,
+				projects are not restricted in any way when using <strong>Open BPMN</strong>. Also, there are no license
+				costs.
+				The project is hosted on <a href="https://github.com/imixs/open-bpmn" target="_blank">Github</a> and
+				includes several subprojects.
+
 				We invite you to join this project!
-			
+
 			</p>
 		</div>
 
@@ -134,51 +136,56 @@
 
 			<h2 class="lead">BPMN 2.0 Extensibility Mechanism</h2>
 			<p class="lead">
-				<strong>Open BPMN</strong> 
-				enables you to customize it's behavior and appearance by adapting the BPMN 2.0 extension mechanism, 
-				or extending the <a href="https://www.eclipse.org/glsp/" target="_blank">Eclipse Graphical Language Server Platform (GLSP)</a>.
+				<strong>Open BPMN</strong>
+				enables you to customize it's behavior and appearance by adapting the BPMN 2.0 extension mechanism,
+				or extending the <a href="https://www.eclipse.org/glsp/" target="_blank">Eclipse Graphical Language
+					Server Platform (GLSP)</a>.
 			</p>
 			<p>
-				This extension mechanism can be used to adapt BPMN elements to the unique requirements of a vertical domain, and still have a valid BPMN Core.				
-			
-				Open Source Workflow Engines like <a href="https://www.imixs.org" target="_blank">Imixs-Workflow</a> already integrate Open BPMN into there 
+				This extension mechanism can be used to adapt BPMN elements to the unique requirements of a vertical
+				domain, and still have a valid BPMN Core.
+
+				Open Source Workflow Engines like <a href="https://www.imixs.org" target="_blank">Imixs-Workflow</a>
+				already integrate Open BPMN into there
 				tooling platforms.
-				
+
 		</div>
-		
+
 	</section>
-	
+
 	<!-- End block -->
 
 	<!-- Start block -->
 	<section class="">
 		<div style="grid-column-start: span 6;">
-			<img
-				src="./images/vs-code-02.png" style="margin-top: 30px;"
-				alt="Open-BPMN">
+			<img src="./images/vs-code-02.png" style="margin-top: 30px;" alt="Open-BPMN">
 		</div>
 		<div style="grid-column-start: span 6;">
 			<h2 class="lead">Platform Neutral</h2>
 			<p class="lead">
-				<strong>Open BPMN</strong> is based on modern web technology 
-				<a href="https://www.eclipse.org/glsp/" target="_blank">(GLSP)</a>. This architecture makes it possible to run Open BPMN on various IDEs and platforms.
+				<strong>Open BPMN</strong> is based on modern web technology
+				<a href="https://www.eclipse.org/glsp/" target="_blank">(GLSP)</a>. This architecture makes it possible
+				to run Open BPMN on various IDEs and platforms.
 			</p>
 			<p>
-				<strong>Open BPMN</strong> can be run on different IDEs such as 
-				<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code (VS-Code)</a>, 
-				<a href="https://eclipse.org/" target="_blank">Eclipse IDE</a>, 
-				<a href="https://theia-ide.org/" target="_blank">Eclipse Theia</a> as well as in your own web application! 
-				
-				
+				<strong>Open BPMN</strong> can be run on different IDEs such as
+				<a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code (VS-Code)</a>,
+				<a href="https://eclipse.org/" target="_blank">Eclipse IDE</a>,
+				<a href="https://theia-ide.org/" target="_blank">Eclipse Theia</a> as well as in your own web
+				application!
+
+
 			</p>
 			<p class="">
-				To run Open-BPMN in Visual Studio Code you can install the 
-				<a href="https://marketplace.visualstudio.com/items?itemName=open-bpmn.open-bpmn-vscode-extension">Open BPMN Extension</a>. 
+				To run Open-BPMN in Visual Studio Code you can install the
+				<a href="https://marketplace.visualstudio.com/items?itemName=open-bpmn.open-bpmn-vscode-extension">Open
+					BPMN Extension</a>.
 
 			</p>
 
 			<p style="text-align: center;padding-top: 20px;">
-				<a href="https://marketplace.visualstudio.com/items?itemName=open-bpmn.open-bpmn-vscode-extension" class="button">Run with Visual Studio</a>
+				<a href="https://marketplace.visualstudio.com/items?itemName=open-bpmn.open-bpmn-vscode-extension"
+					class="button">Run with Visual Studio</a>
 			</p>
 		</div>
 	</section>
@@ -187,45 +194,56 @@
 	<!-- Start block -->
 	<section class="">
 		<div style="grid-column-start: span 6;">
-		
+
 			<h2 class="lead">What is BPMN 2.0?</h2>
 			<p class="lead">
-				The Business Process Model and Notation (BPMN 2.0) is used to describe, visualize and process your business processes 
+				The Business Process Model and Notation (BPMN 2.0) is used to describe, visualize and process your
+				business processes
 				in an interoperable, interchangeable and open standard.
 			</p>
 			<p>
-				BPMN was intended for users at all levels, from the business analysts who create the initial design, to the developers 
-				who implement the technical details, and finally, to the business users responsible for managing and monitoring the processes.			
+				BPMN was intended for users at all levels, from the business analysts who create the initial design, to
+				the developers
+				who implement the technical details, and finally, to the business users responsible for managing and
+				monitoring the processes.
 			</p>
 			<p>
-				As a XML language proposed by the Object Management Group (OMG), BPMN is not only a notation for describing business 
-				workflows but also higher-level collaborations between business partners and the choreography of information flows between 
+				As a XML language proposed by the Object Management Group (OMG), BPMN is not only a notation for
+				describing business
+				workflows but also higher-level collaborations between business partners and the choreography of
+				information flows between
 				applications, microservices and cloud platforms.
 			</p>
 		</div>
 		<div style="grid-column-start: span 6;">
-		
+
 			<h2 class="lead">The BPMN Meta Model</h2>
 			<p class="lead">
-				Open BPMN provides a Java Meta Model used to create, load and manipulate a BPMN 2.0 model programmatically. 
-				
+				Open BPMN provides a Java Meta Model used to create, load and manipulate a BPMN 2.0 model
+				programmatically.
+
 			</p>
 			<p>
-				The Open-BPMN Meta Model can be downloaded form <a href="https://github.com/imixs/open-bpmn/tree/master/open-bpmn.metamodel">Github</a>.
-				 The library is based on the org.w3c.dom XML API and operates directly on the dom Nodes which makes this Meta Model very flexible.
-				  The Open BPMN Meta Model allows you to handle any kind of BPMN model and also work with BPMN 2.0 extensions and add your own extensions.
-				  You can use it with maven: 
+				The Open-BPMN Meta Model can be downloaded form <a
+					href="https://github.com/imixs/open-bpmn/tree/master/open-bpmn.metamodel">Github</a>.
+				The library is based on the org.w3c.dom XML API and operates directly on the dom Nodes which makes this
+				Meta Model very flexible.
+				The Open BPMN Meta Model allows you to handle any kind of BPMN model and also work with BPMN 2.0
+				extensions and add your own extensions.
+				You can use it with maven:
 			</p>
-			<div style="background: #282b2e;color: #a9b7c6;padding: 10px 20px;" ><pre style="margin:0;">&lt;dependency&gt;
+			<div style="background: #282b2e;color: #a9b7c6;padding: 10px 20px;">
+				<pre style="margin:0;">&lt;dependency&gt;
   &lt;groupId&gt;org.imixs.bpmn&lt;/groupId&gt;
   &lt;artifactId&gt;open-bpmn.metamodel&lt;/artifactId&gt;
   &lt;version&gt;${openbpmn.version}&lt;/version&gt;
-&lt;/dependency&gt;</pre></div>
+&lt;/dependency&gt;</pre>
+			</div>
 
 		</div>
 	</section>
-	
-	
+
+
 	<!-- End block -->
 
 
@@ -234,26 +252,32 @@
 	<!-- Start block -->
 	<section class="">
 		<div style="grid-column-start: span 12;">
-		
+
 			<h2 class="lead">The Community</h2>
 			<p class="lead">
-				<strong>Open BPMN</strong> is free software, because we believe that an open exchange of knowledge and experiences is 
-				fundamental for the development of sustainable software. You can build, run and adapt <strong>Open BPMN</strong> for any platform, and use it for any kind of business application.				
+				<strong>Open BPMN</strong> is free software, because we believe that an open exchange of knowledge and
+				experiences is
+				fundamental for the development of sustainable software. You can build, run and adapt <strong>Open
+					BPMN</strong> for any platform, and use it for any kind of business application.
 			</p>
 			<p>
-				We sincerely invite you to participate in this project. There are different ways how you can do that. 
-				Join the <strong>Open BPMN</strong> Project now on <a href="https://github.com/imixs/open-bpmn" target="_blank">Github</a>. 
-				You can help to improve the project by reporting <a href="https://github.com/imixs/open-bpmn/issues" target="_blank">bugs</a> 
-				or start a <a href="https://github.com/imixs/open-bpmn/discussions" target="_blank">new discussion</a>. 		
+				We sincerely invite you to participate in this project. There are different ways how you can do that.
+				Join the <strong>Open BPMN</strong> Project now on <a href="https://github.com/imixs/open-bpmn"
+					target="_blank">Github</a>.
+				You can help to improve the project by reporting <a href="https://github.com/imixs/open-bpmn/issues"
+					target="_blank">bugs</a>
+				or start a <a href="https://github.com/imixs/open-bpmn/discussions" target="_blank">new discussion</a>.
 			</p>
 			<p>
-				The project is led by the Imixs, a software company located in Germany / Munich. We are specialized in business process management solutions (BPMS). 
-				We offer professional services and consulting for open source and individual software projects. <a href="https://www.imixs.com" target="_blank">Imixs Software Solutions GmbH</a>.
+				The project is led by the Imixs, a software company located in Germany / Munich. We are specialized in
+				business process management solutions (BPMS).
+				We offer professional services and consulting for open source and individual software projects. <a
+					href="https://www.imixs.com" target="_blank">Imixs Software Solutions GmbH</a>.
 			</p>
 		</div>
 	</section>
-	
-	
+
+
 	<!-- End block -->
 
 
@@ -266,50 +290,42 @@
 			<div>
 				<h3>Company</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
-					<li class="mb-4"><a href="https://www.imixs.com"
-						class=" hover:underline">Imixs Software Solutions GmbH</a></li>
-				
+					<li class="mb-4"><a href="https://www.imixs.com" class=" hover:underline">Imixs Software Solutions
+							GmbH</a></li>
+
 
 				</ul>
 			</div>
 			<div>
 				<h3>Help
 					center</h3>
-				<ul class="text-gray-500 dark:text-gray-400">				
-					<li class="mb-4"><a
-						href="https://github.com/imixs/open-bpmn/discussions"
-						class="hover:underline">Discussion</a></li>
-					<li class="mb-4"><a
-						href="https://github.com/imixs/open-bpmn/releases"
-						class="hover:underline">Releases</a></li>
+				<ul class="text-gray-500 dark:text-gray-400">
+					<li class="mb-4"><a href="https://github.com/imixs/open-bpmn/discussions"
+							class="hover:underline">Discussion</a></li>
+					<li class="mb-4"><a href="https://github.com/imixs/open-bpmn/releases"
+							class="hover:underline">Releases</a></li>
 				</ul>
 
 			</div>
 			<div>
 				<h3>Projects</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
-					<li class="mb-4"><a
-						href="https://www.imixs.org"
-						class="hover:underline">Imixs-Workflow</a></li>
+					<li class="mb-4"><a href="https://www.imixs.org" class="hover:underline">Imixs-Workflow</a></li>
 
-					<li class="mb-4"><a
-						href="https://doc.office-workflow.com/"
-						class="hover:underline">Imixs-Office-Workflow</a></li>
+					<li class="mb-4"><a href="https://doc.office-workflow.com/"
+							class="hover:underline">Imixs-Office-Workflow</a></li>
 				</ul>
 			</div>
 			<div>
 				<h3>Legal</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
 
-					<li class="mb-4"><a
-						href="https://github.com/imixs/open-bpmn/blob/master/LICENSE"
-						class="hover:underline">Licensing</a></li>
-					<li class="mb-4"><a
-						href="https://www.imixs.com/about/datenschutz/"
-						class="hover:underline">Privacy Policy</a></li>
-					<li class="mb-4"><a
-						href="https://www.imixs.com/about/impressum/"
-						class="hover:underline">Terms</a></li>
+					<li class="mb-4"><a href="https://github.com/imixs/open-bpmn/blob/master/LICENSE"
+							class="hover:underline">Licensing</a></li>
+					<li class="mb-4"><a href="https://www.imixs.com/about/datenschutz/" class="hover:underline">Privacy
+							Policy</a></li>
+					<li class="mb-4"><a href="https://www.imixs.com/about/impressum/" class="hover:underline">Terms</a>
+					</li>
 				</ul>
 			</div>
 
@@ -318,6 +334,7 @@
 
 		</section>
 	</footer>
-	
+
 </body>
+
 </html>
