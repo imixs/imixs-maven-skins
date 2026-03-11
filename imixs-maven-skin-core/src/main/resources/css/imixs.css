@@ -133,8 +133,8 @@ p {
 
 code {
 	font-family: Consolas, "Courier New", monospace !important;
-	font-size: inherit;
 	background-color: #999;
+	line-height: 1.25em;
 }
 code span {
 	font-family: Consolas, "Courier New", monospace !important;
@@ -189,7 +189,7 @@ code span {
 }
 
 .content td, .content td a {
-	font-size: 12px;
+    font-size: 0.9em;
 }
 
 #header {
