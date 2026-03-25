@@ -98,7 +98,7 @@
 .col-nav li {
 	margin: 0 0px 10px 15px;
 	display: list-item;
-	color: #FCB802;
+	color: #40b6b7;
 	border-bottom: 1px solid  transparent;
 	border-top: 1px solid  transparent;
 }
@@ -106,8 +106,8 @@
 	color: #333;
 }
 .col-nav li>ul>li:hover {
-	border-bottom: 1px solid  #FCB802;
-	border-top: 1px solid  #FCB802;
+	border-bottom: 1px solid  #40b6b7;
+	border-top: 1px solid  #40b6b7;
 }
 .col-nav div.selected {
 	font-weight: bold;
@@ -117,8 +117,8 @@
 }
 
 .col-nav li.collapsed:hover {
-	border-bottom: 1px solid  #FCB802;
-	border-top: 1px solid  #FCB802;
+	border-bottom: 1px solid  #40b6b7;
+	border-top: 1px solid  #40b6b7;
 }
 
 .col-nav li.expanded {
@@ -131,8 +131,8 @@
 }
 
 .col-nav li.none:hover {
-	border-bottom: 1px solid  #FCB802;
-	border-top: 1px solid  #FCB802;
+	border-bottom: 1px solid  #40b6b7;
+	border-top: 1px solid  #40b6b7;
 }
 
 
