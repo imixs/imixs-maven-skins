@@ -341,10 +341,8 @@
 			<div class="nav-menu" >
 			
 				<ul hidden>
-					<li><a href="$relativePath/index.html" aria-current="page">Home</a></li>
-					<li><a href="$relativePath/overview.html">Documentation</a></li>
-					<li><a href="$relativePath/quickstart.html" >Quick-Start</a></li>
-					<li><a href="https://github.com/imixs/imixs-workflow/discussions">Discussion</a></li>										
+					<li><a href="$relativePath/index.html" aria-current="page">Home</a></li> 
+					<li><a href="https://github.com/orgs/dynamixs-ai/discussions">Discussion</a></li>										
 				</ul>
 			</div>
 			
@@ -415,23 +413,19 @@
 			<div style="grid-column-start: span 3;">
 				<h3>Company</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
-					<li class="mb-4"><a href="https://www.imixs.com"
-						class=" hover:underline">Imixs Software Solutions GmbH</a></li>
-					<li class="mb-4"><a href="https://www.office-workflow.de"
-						class="hover:underline">Dynamixs.AI</a></li>
-					<li class="mb-4"><a href="https://www.imixs.com/contact/"
+					<li class="mb-4"><a href="https://www.dynamixs.ai/"
+						class=" hover:underline">Dynamixs.AI GmbH</a></li>
+				
+					<li class="mb-4"><a href="https://www.dynamixs.ai/contact-us"
 						class="hover:underline">Contact</a></li>
 
 				</ul>
 			</div>
 			<div style="grid-column-start: span 3;">
-				<h3>Help
-					center</h3>
+				<h3>Help center</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
-					<li class="mb-4"><a href="./index.html"
-						class="hover:underline">Documentation</a></li>
 					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-workflow/discussions"
+						href="https://github.com/orgs/dynamixs-ai/discussions"
 						class="hover:underline">Discussion</a></li>
 					<li class="mb-4"><a
 						href="https://github.com/dynamixs-ai/dynamixs-partner-template/releases"
@@ -445,17 +439,13 @@
 				<h3>Subprojects</h3>
 				<ul class="text-gray-500 dark:text-gray-400">
 					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-bpmn/"
+						href="https://www.open-bpmn.org"
 						class="hover:underline">Imixs-BPMN</a></li>
 
 					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-archive"
-						class="hover:underline">Imixs-Archive</a></li>
-					<li class="mb-4"><a
-						href="https://github.com/imixs/imixs-adapters"
-						class="hover:underline">Imixs-Adapters</a></li>
-					<li class="mb-4"><a href="https://github.com/imixs/imixs-ml"
-						class="hover:underline">Imixs-ML</a></li>
+						href="https://www.imixs.org"
+						class="hover:underline">Imixs-Workflow</a></li>
+				
 				</ul>
 			</div>
 			<div style="grid-column-start: span 3;">
@@ -466,10 +456,10 @@
 						href="https://github.com/dynamixs-ai/dynamixs-partner-template/blob/master/LICENSE"
 						class="hover:underline">Licensing</a></li>
 					<li class="mb-4"><a
-						href="https://www.imixs.com/about/datenschutz/"
+						href="https://www.dynamixs.ai/contact-us/datenschutzerklaerung-privacy"
 						class="hover:underline">Privacy Policy</a></li>
 					<li class="mb-4"><a
-						href="https://www.imixs.com/about/impressum/"
+						href="https://www.dynamixs.ai/contact-us/impressum"
 						class="hover:underline">Terms</a></li>
 				</ul>
 			</div>
