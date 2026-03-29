@@ -1,4 +1,4 @@
-# Imixs Office Workflow - Maven Skin
+# Dynamixs.AI - Maven Skin
 
 This project provides a custom [maven-site skin](https://maven.apache.org/plugins/maven-site-plugin/) used by the project [Dynamixs-AI](github.com/dynamixs-ai/dynamixs-partner-template). You can use and customize this Maven skin for your own project.
 
@@ -47,7 +47,6 @@ Now you can use the skin:
     </reporting>
     ...
 
-
 Than create a `site.xml` in your /src folder with at least the following entry:
 
     <?xml version="1.0" encoding="ISO-8859-1"?>
@@ -63,5 +62,3 @@ Than create a `site.xml` in your /src folder with at least the following entry:
 To build your site run:
 
     $ mvn clean site
-
-

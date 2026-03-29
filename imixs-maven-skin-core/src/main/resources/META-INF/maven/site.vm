@@ -317,9 +317,9 @@
     #end
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=${outputEncoding}" />
-	<meta name="description" content="The open source workflow engine for human-centric business process management" />
-	<meta name="keywords" content="Workflow, workflow engine, BPM, BPMN, open source, java, business process management, Eclipse, Jakarta, JBoss, Wildfly, Workflow Management, Modeller Tool, Microservice, BPMN 2.0"/>
-	<meta http-equiv="expires" content="43200">
+	  <meta name="description" content="Imixs-Workflow – open source workflow engine based on BPMN 2.0 for human-centric business process management. Jakarta EE, Docker, REST API." />
+  	<meta name="keywords" content="Workflow, workflow engine, BPM, BPMN, open source, java, business process management, Eclipse, Jakarta, JBoss, Wildfly, Workflow Management, Modeller Tool, Microservice, BPMN 2.0"/>
+	  <meta http-equiv="expires" content="43200">
     <link rel="icon" href="$relativePath/favicon.png" type="image/png" />
     <!-- github integration -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
@@ -417,7 +417,7 @@
 				<a href="/doc/javascript/index.html">JavaScript</a> | 
 			</div>
 			<div style="clear:both;">
-		&#169; 2006-2018 Imixs Software Solutions GmbH | <a
+		&#169; 2006-2026 Imixs Software Solutions GmbH | <a
 				href="mailto:info@imixs.com">Contact</a> | <a
 				href="http://www.imixs.com/?page_id=56">Impressum</a>
 				<br />
