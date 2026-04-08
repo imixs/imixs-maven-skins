@@ -309,20 +309,15 @@
     <script src="${relativePath}/highlight/languages/json.min.js"></script>
     <script src="${relativePath}/highlight/languages/xml.min.js"></script>
     <script>hljs.highlightAll();</script>
-
-    
     <link rel="stylesheet" href="${relativePath}/css/print.css" type="text/css" media="print" />
     #foreach( $author in $authors )
       <meta name="author" content="$author" />
     #end
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <meta http-equiv="Content-Type" content="text/html; charset=${outputEncoding}" />
-	  <meta name="description" content="Imixs-Workflow – open source workflow engine based on BPMN 2.0 for human-centric business process management. Jakarta EE, Docker, REST API." />
-  	<meta name="keywords" content="Workflow, workflow engine, BPM, BPMN, open source, java, business process management, Eclipse, Jakarta, JBoss, Wildfly, Workflow Management, Modeller Tool, Microservice, BPMN 2.0"/>
-	  <meta http-equiv="expires" content="43200">
     <link rel="icon" href="$relativePath/favicon.png" type="image/png" />
     <!-- github integration -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	  <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
   <body>
    
