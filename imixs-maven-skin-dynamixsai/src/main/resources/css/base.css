@@ -182,7 +182,7 @@ section {
 	margin-bottom: 60px;
 	padding: 0 20px;
 	display: grid;
-	grid-template-columns: repeat(12, minmax(64px, 110px));
+	grid-template-columns: repeat(12, minmax(24px, 110px));
 	column-gap: 40px;
 }
 
